@@ -1,6 +1,6 @@
-baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
-title = "Academic"
-copyright = "&copy; 2016 Your Name"
+baseurl = "http://localhost:1313/"  # End your URL with a `/` trailing slash.
+title = "IP Laws，知识产权律师团"
+copyright = "&copy; 2017 周才淇律师"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -12,24 +12,24 @@ disqusShortname = ""
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
 
 [blackfriday]
   hrefTargetBlank = true
 
 [params]
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
-  organization = "Stanford University"
-  organization_url = ""
+  name = "知识产权律师团"
+  role = "著作权、商标、专利、商业秘密"
+  organization = "泰和泰律师事务所"
+  organization_url = "http://www.tahota-lawyer.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "info@iplaws.cn"
+  address = "深圳市福田区福虹路9号世贸广场C座25层"
+  office_hours = "办公时间为工作日上午9点至下午6点；邮件是 7 * 24 小时"
+  phone = "177 2261 8837"
+  skype = "choicky"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
