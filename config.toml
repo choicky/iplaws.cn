@@ -30,6 +30,7 @@ defaultContentLanguageInSubdir = true
   office_hours = "办公时间为工作日上午9点至下午6点；邮件是 7 * 24 小时"
   phone = "177 2261 8837"
   skype = "choicky"
+  wechat = "choicky"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
