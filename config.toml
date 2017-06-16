@@ -29,7 +29,7 @@ defaultContentLanguageInSubdir = true
   address = "深圳市福田区福虹路9号世贸广场C座25层"
   office_hours = "办公时间为工作日上午9点至下午6点；邮件是 7 * 24 小时"
   phone = "177 2261 8837"
-  skype = "choicky"
+  skype = ""
   wechat = "choicky"
   telegram = ""
 
@@ -127,12 +127,12 @@ defaultContentLanguageInSubdir = true
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:info@iplaws.cn"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/choicky"
 
   [[params.social]]
     icon = "google-scholar"
@@ -142,7 +142,12 @@ defaultContentLanguageInSubdir = true
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/choicky"
+    
+    [[params.social]]
+    icon = "wechat"
+    icon_pack = "fa"
+    link = "//github.com/choicky"
 
 
 # Navigation Links
