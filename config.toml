@@ -1,6 +1,6 @@
 baseurl = "http://localhost:1313/"  # End your URL with a `/` trailing slash.
 title = "IP Laws，知识产权律师团"
-copyright = "&copy; 2017 周才淇律师"
+copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = true
   hrefTargetBlank = true
 
 [params]
-  name = "知识产权律师团"
+  name = "周才淇律师"
   role = "著作权、商标、专利、商业秘密"
   organization = "泰和泰律师事务所"
   organization_url = "http://www.tahota-lawyer.com"
@@ -27,10 +27,11 @@ defaultContentLanguageInSubdir = true
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "info@iplaws.cn"
   address = "深圳市福田区福虹路9号世贸广场C座25层"
-  office_hours = "办公时间为工作日上午9点至下午6点；邮件是 7 * 24 小时"
+  office_hours = ""
   phone = "177 2261 8837"
   skype = ""
   wechat = "choicky"
+  qq = "85144733"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -130,25 +131,24 @@ defaultContentLanguageInSubdir = true
     link = "mailto:info@iplaws.cn"
 
   [[params.social]]
+    icon = "qq"
+    icon_pack = "fa"
+    link = "tencent://message/?uin=85144733"
+    
+  [[params.social]]
+    icon = "wechat"
+    icon_pack = "fa"
+    link = "weixin://contacts/profile/choicky"
+
+  [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/choicky"
 
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
-
-  [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/choicky"
-    
-    [[params.social]]
-    icon = "wechat"
-    icon_pack = "fa"
-    link = "//github.com/choicky"
-
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
