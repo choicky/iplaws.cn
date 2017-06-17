@@ -48,7 +48,7 @@ weight = 1
   year = 2014
   
 [[education.courses]]
-  course = "基于事实与法律，将当事人的刑期从检察院建议的3~5年缩短为只有10个月"
+  course = "基于事实与法律做刑事辩护，将当事人的刑期从检察院建议的3~5年缩短为只有10个月"
   institution = ""
   year = 2016
   
