@@ -19,9 +19,9 @@ defaultContentLanguageInSubdir = true
   hrefTargetBlank = true
 
 [params]
-  name = "周才淇律师"
+  name = "周才淇，律师"
   role = "著作权、商标、专利、商业秘密"
-  organization = "泰和泰律师事务所"
+  organization = "广东深法律师事务所"
   organization_url = "http://www.tahota-lawyer.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
