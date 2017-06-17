@@ -1,5 +1,5 @@
 baseurl = "http://iplaws.cn/"  # End your URL with a `/` trailing slash.
-title = "IP Laws，知识产权律师团"
+title = "IP Laws，知识产权律师"
 copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
 enableEmoji = true
@@ -10,6 +10,9 @@ disqusShortname = "iplaws-cn"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
+
+# Enable analytics by entering your Baidu Tongji tracking ID
+baiduTongji = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "zh"
