@@ -156,34 +156,59 @@ defaultContentLanguageInSubdir = true
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Home"
+  name = "首页"
   url = "#about"
-  weight = 1
+  weight = 11
 
 [[menu.main]]
-  name = "Publications"
+  name = "书籍"
   url = "#publications_selected"
-  weight = 2
+  weight = 21
 
 [[menu.main]]
-  name = "Posts"
+  name = "文章"
   url = "#posts"
-  weight = 3
+  weight = 31
 
 [[menu.main]]
-  name = "Projects"
+  name = "案例"
   url = "#projects"
-  weight = 4
+  weight = 41
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+  name = "类别"
+  weight = 51
+  
+    [[menu.main]]
+      name = "著作权"
+      url = "tags/著作权"
+      parent = "类别"
+      weight = 52
+    [[menu.main]]
+      name = "商标"
+      url = "tags/商标"
+      parent = "类别"
+      weight = 54
+    [[menu.main]]
+      name = "商业秘密"
+      url = "tags/商业秘密"
+      parent = "类别"
+      weight = 56
+    [[menu.main]]
+      name = "外观"
+      url = "tags/外观"
+      parent = "类别"
+      weight = 57
+    [[menu.main]]
+      name = "专利"
+      url = "tags/专利"
+      parent = "类别"
+      weight = 60
 
 [[menu.main]]
-  name = "Contact"
+  name = "联系"
   url = "#contact"
-  weight = 6
+  weight = 61
 
 # Taxonomies.
 [taxonomies]
