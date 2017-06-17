@@ -62,7 +62,7 @@
       <li>
         <i class="fa-li fa fa-wechat fa-2x" aria-hidden="true"></i>
         <span>
-        {{- if $autolink }}<a href="wechat:{{ . }}?call">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+        {{- if $autolink }}<a href="weixin://contacts/profile/{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
       </li>
       {{ end }}
