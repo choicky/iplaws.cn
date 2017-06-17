@@ -1,0 +1,7 @@
+[
+  {
+    "id": "hugo-deploy",
+    "execute-command": "/home/choicky/www/iplaws.cn/hugo-deploy.sh",
+    "command-working-directory": "/home/choicky/www/iplaws.cn"
+  }
+]
