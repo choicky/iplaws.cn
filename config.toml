@@ -11,9 +11,6 @@ disqusShortname = "iplaws-cn"
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
-# Enable analytics by entering your Baidu Tongji tracking ID
-baiduTongji = true
-
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
@@ -36,6 +33,9 @@ defaultContentLanguageInSubdir = true
   wechat = "choicky"
   qq = "85144733"
   telegram = ""
+    
+  # Enable analytics by entering your Baidu Tongji tracking ID
+  baiduTongji = true
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
