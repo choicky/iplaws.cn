@@ -23,7 +23,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "南开大学，双学位"
+  course = "南开大学，天津大学"
   institution = ""
   year = 2005
 
