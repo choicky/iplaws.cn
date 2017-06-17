@@ -188,20 +188,20 @@ defaultContentLanguageInSubdir = true
       name = "商标"
       url = "tags/商标"
       parent = "类别"
-      weight = 54
-    [[menu.main]]
-      name = "商业秘密"
-      url = "tags/商业秘密"
-      parent = "类别"
-      weight = 56
+      weight = 54    
     [[menu.main]]
       name = "外观"
       url = "tags/外观"
       parent = "类别"
-      weight = 57
+      weight = 56
     [[menu.main]]
       name = "专利"
       url = "tags/专利"
+      parent = "类别"
+      weight = 58
+    [[menu.main]]
+      name = "商业秘密"
+      url = "tags/商业秘密"
       parent = "类别"
       weight = 60
 
