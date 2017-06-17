@@ -165,7 +165,7 @@ defaultContentLanguageInSubdir = true
   weight = 11
 
 [[menu.main]]
-  name = "书籍"
+  name = ""
   url = "#publications_selected"
   weight = 21
 
@@ -175,7 +175,7 @@ defaultContentLanguageInSubdir = true
   weight = 31
 
 [[menu.main]]
-  name = "案例"
+  name = ""
   url = "#projects"
   weight = 41
 
