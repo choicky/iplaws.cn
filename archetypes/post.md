@@ -8,7 +8,8 @@ tags = [
     "实用新型",
     "发明",
     "专利",
-    "商业秘密"
+    "商业秘密",
+    "IT"
 ]
 
 # Optional featured image (relative to `static/img/` folder).
