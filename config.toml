@@ -1,4 +1,4 @@
-baseurl = "http://iplaws.cn/"  # End your URL with a `/` trailing slash.
+baseurl = "https://iplaws.cn/"  # End your URL with a `/` trailing slash.
 title = "IP Laws，知识产权律师"
 copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
