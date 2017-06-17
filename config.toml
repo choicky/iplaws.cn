@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313/"  # End your URL with a `/` trailing slash.
+baseurl = "http://iplaws.cn/"  # End your URL with a `/` trailing slash.
 title = "IP Laws，知识产权律师团"
 copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
@@ -6,7 +6,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "iplaws-cn"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
