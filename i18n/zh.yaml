@@ -29,10 +29,10 @@
 # About widget
 
 - id: interests
-  translation: 兴趣爱好
+  translation: 擅长领域
 
 - id: education
-  translation: 教育经历
+  translation: 专业与案例
 
 # Publications widget
 

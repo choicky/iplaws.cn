@@ -170,49 +170,44 @@ defaultContentLanguageInSubdir = true
   weight = 21
 
 [[menu.main]]
-  name = "文章"
+  name = "最新文章"
   url = "#posts"
   weight = 31
 
 [[menu.main]]
-  name = ""
-  url = "#projects"
+  name = "所有文章"
+  url = "tags/post"
   weight = 41
 
 [[menu.main]]
-  name = "类别"
+  name = "著作权"
+  url = "tags/著作权"
   weight = 51
   
-    [[menu.main]]
-      name = "著作权"
-      url = "tags/著作权"
-      parent = "类别"
-      weight = 52
-    [[menu.main]]
-      name = "商标"
-      url = "tags/商标"
-      parent = "类别"
-      weight = 54    
-    [[menu.main]]
-      name = "外观"
-      url = "tags/外观"
-      parent = "类别"
-      weight = 56
-    [[menu.main]]
-      name = "专利"
-      url = "tags/专利"
-      parent = "类别"
-      weight = 58
-    [[menu.main]]
-      name = "商业秘密"
-      url = "tags/商业秘密"
-      parent = "类别"
-      weight = 60
+[[menu.main]]
+  name = "商标"
+  url = "tags/商标"
+  weight = 53
+  
+[[menu.main]]
+  name = "专利"
+  url = "tags/专利"
+  weight = 55
+  
+[[menu.main]]
+  name = "商业秘密"
+  url = "tags/商业秘密"
+  weight = 57
+    
+[[menu.main]]
+  name = "案例"
+  url = "tags/案例"
+  weight = 61
 
 [[menu.main]]
   name = "联系"
   url = "#contact"
-  weight = 61
+  weight = 71
 
 # Taxonomies.
 [taxonomies]
