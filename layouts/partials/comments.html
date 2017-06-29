@@ -1,0 +1,23 @@
+{{ if and .Site.DisqusShortname (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
+<section id="comments">
+    <div id="comment"></div>
+
+    <ul id="popular-posts"></ul>
+
+    <script>
+        var disq = new iDisqus('comment', {
+            forum: 'iplaws-cn',
+            api: 'https://disqus.fei-xing.com/api',
+            site: 'https://iplaws.cn',
+            url: '',
+            mode: 2,
+            timeout: 3000,
+            popular: document.getElementById('popular-posts'),
+            slug: location.pathname.slice(1).split('.')[0],
+            init: true,
+        });
+        disq.popular();
+        disq.count();
+    </script>
+</section>
+{{ end }}
