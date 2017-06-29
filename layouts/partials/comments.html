@@ -1,5 +1,6 @@
 {{ if and .Site.DisqusShortname (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
 <section id="comments">
+  <div id="disqus_thread">
     <div id="comment"></div>
 
     <ul id="popular-posts"></ul>
@@ -7,7 +8,7 @@
     <script>
         var disq = new iDisqus('comment', {
             forum: 'iplaws-cn',
-            api: 'https://disqus.fei-xing.com/api',
+            api: 'https://disqus-iplaws-cn.fei-xing.com/api',
             site: 'https://iplaws.cn',
             url: '',
             mode: 2,
@@ -19,5 +20,6 @@
         disq.popular();
         disq.count();
     </script>
+  </div>
 </section>
 {{ end }}
