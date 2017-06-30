@@ -1,6 +1,6 @@
 +++
-math = false
-highlight = true
+date = {{ .Date }}
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
 tags = [
     "post", # 保留，文章归档使用
     "著作权",
@@ -12,6 +12,8 @@ tags = [
     "商业秘密", # 如涉及商业秘密，则附加一个 tag 明确其为技术信息还是经营信息
     "案例"
 ]
+math = false
+highlight = true
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
